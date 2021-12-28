@@ -1,0 +1,54 @@
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #8052ec, #d161ff);
+}
+.container {
+  text-align: center;
+  border: 1px solid rgb(8, 8, 8);
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.row-1 {
+  background: linear-gradient(135deg, #22e2e2, #df6a1d);
+  color: #ffffff;
+  box-shadow: black;
+}
+.flex div {
+  border: 1px solid black;
+  padding: 10px;
+  height: 350px;
+  flex: 1;
+  text-align: center;
+}
+
+.flex-btn {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+  padding: 10px;
+}
+img {
+  height: 100px;
+  width: 100px;
+  justify-content: space-between;
+  margin: 10px;
+}
